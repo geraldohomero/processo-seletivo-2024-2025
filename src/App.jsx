@@ -43,7 +43,6 @@ function App() {
       </Stack>
 
       <section>
-        <h2>{currentPage.toUpperCase()}</h2>
         {renderPage()}
       </section>
     </div>
