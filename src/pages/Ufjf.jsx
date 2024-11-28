@@ -132,10 +132,10 @@ const Ufjf = () => {
             onChange={(e) => setSelectedLine(e.target.value)}
             sx={{ mb: 4 }}
           >
-            <MenuItem value="all">Todas as Linhas</MenuItem>
-            <MenuItem value="linha1">Linha 1</MenuItem>
-            <MenuItem value="linha2">Linha 2</MenuItem>
-            <MenuItem value="linha3">Linha 3</MenuItem>
+            <MenuItem value="all">Todas as Linhas de Pesquisa</MenuItem>
+            <MenuItem value="linha1">1. HISTÓRIA DA ARTE, PATRIMÔNIO, CULTURA E SOCIABILIDADES</MenuItem>
+            <MenuItem value="linha2">2. HISTÓRIA GLOBAL, MICRO-HISTÓRIA E DIÁLOGOS EPISTÊMICOS</MenuItem>
+            <MenuItem value="linha3">3. POLÍTICA, CULTURA E USOS DO PASSADO</MenuItem>
           </Select>
 
           <Grid container spacing={2} sx={{ mb: 4 }}>
@@ -159,7 +159,7 @@ const Ufjf = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <Paper sx={{ p: 2, bgcolor: '#bbdefb', borderRadius: '8px' }}>
-                <Typography color="primary" variant="subtitle2">Notas 10,0</Typography>
+                <Typography color="primary" variant="subtitle2">Notas 100</Typography>
                 <Typography variant="h4">{stats.perfectScores}</Typography>
               </Paper>
             </Grid>
@@ -178,7 +178,7 @@ const Ufjf = () => {
           </Grid>
 
           <Typography variant="h6" gutterBottom>
-            Distribuição das Notas (Bar Chart)
+            Distribuição das Notas
           </Typography>
           <div className="h-64 mb-6">
             <ResponsiveContainer width="100%" height={300}>
@@ -207,9 +207,9 @@ const Ufjf = () => {
               <TableHead>
                 <TableRow>
                   <TableCell align="center">Posição</TableCell>
-                  <TableCell align="center">Nome</TableCell>
+                  <TableCell align="center">Número</TableCell>
                   <TableCell align="center">Nota</TableCell>
-                  <TableCell align="center">Linha</TableCell>
+                  <TableCell align="center">Linha de Pesquisa</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>

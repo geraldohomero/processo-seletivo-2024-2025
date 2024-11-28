@@ -91,7 +91,7 @@ const Unifesp = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <Paper sx={{ p: 2, bgcolor: '#bbdefb' }}>
-                <Typography color="primary" variant="subtitle2">Notas 10,0</Typography>
+                <Typography color="primary" variant="subtitle2">Notas 10</Typography>
                 <Typography variant="h4">{perfectScores}</Typography>
               </Paper>
             </Grid>
@@ -111,7 +111,7 @@ const Unifesp = () => {
 
           {/* Bar Chart Section */}
           <Typography variant="h6" gutterBottom>
-            Distribuição das Notas (Bar Chart)
+            Distribuição das Notas
           </Typography>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={chartData}>
