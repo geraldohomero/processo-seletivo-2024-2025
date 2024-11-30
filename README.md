@@ -1,8 +1,12 @@
-# React + Vite
+# Functionalities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Graphical Analysis: Provides a visual representation of the admissions process numbers.
+Data Visualization: Displays the data in a clear and concise manner.
 
-Currently, two official plugins are available:
+# Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript: Programming language for web development.
+recharts: A charting library for React.
+React: JavaScript library for building user interfaces.
+Vite: A build tool that aims to provide a faster and leaner development experience.
+Vercel: Platform for deploying web applications.
