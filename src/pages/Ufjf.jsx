@@ -76,6 +76,12 @@ const Ufjf = () => {
     { inscription: "938/0043", projetoGrade: 80, projetoStatus: "APROVADO", line: "Linha 2", interviewGrade: 98, interviewStatus: "APROVADO", finalGradeAverage: 89 },
     { inscription: "938/0047", projetoGrade: 85, projetoStatus: "APROVADO", line: "Linha 2", interviewGrade: 85, interviewStatus: "APROVADO", finalGradeAverage: 85 },
     { inscription: "938/0049", projetoGrade: 60, projetoStatus: "REPROVADO", line: "Linha 2", interviewGrade: null, interviewStatus: null, finalGradeAverage: null },
+    //inscrições indeferidas, tudo null: 0008,0005,0025 e 0046
+    { inscription: "938/0005", projetoGrade: null, projetoStatus: null, line: "INDEFERIDO", interviewGrade: null, interviewStatus: null, finalGradeAverage: null },
+    { inscription: "938/0008", projetoGrade: null, projetoStatus: null, line: "INDEFERIDO", interviewGrade: null, interviewStatus: null, finalGradeAverage: null },
+    { inscription: "938/0025", projetoGrade: null, projetoStatus: null, line: "INDEFERIDO", interviewGrade: null, interviewStatus: null, finalGradeAverage: null },
+    { inscription: "938/0046", projetoGrade: null, projetoStatus: null, line: "INDEFERIDO", interviewGrade: null, interviewStatus: null, finalGradeAverage: null }
+
   ];
 
   const linha3Data = [
