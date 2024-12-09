@@ -13,4 +13,4 @@
 
 # Preview
 
-![Website charts preview](https://github.com/user-attachments/assets/3ebc2046-e610-4384-b902-da451ed5b6e8)
+![image](https://github.com/user-attachments/assets/7e0b2fb6-a175-440d-82ea-3c576d6eaf0a)
